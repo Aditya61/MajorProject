@@ -1,9 +1,10 @@
 <script>
     import "../app.css";
+    import logo from "../lib/assets/logo.webp";
 </script>
 
 <header class="flex flex-wrap p-2 gap-4">
-    <img class="h-20 w-20" src="https://www.ibm.com/brand/experience-guides/developer/8f4e3cc2b5d52354a6d43c8edba1e3c9/02_8-bar-reverse.svg" alt="IBM">
+    <img class="h-20 w-auto" src={logo} alt="IBM">
     <div class="p-1">
         <h1 class="text-3xl font-serif font-extrabold py-1 px-2">Major Project</h1>
         <h2 class="text-xl font-serif font-bold text-purple-600 shadow-inner shadow-purple-700 px-2">Customer Behavior Analysis</h2>

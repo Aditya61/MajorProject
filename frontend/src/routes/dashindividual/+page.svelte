@@ -1,1 +1,0 @@
-<h1>Individual Dashboard</h1>
